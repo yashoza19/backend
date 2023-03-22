@@ -24,6 +24,7 @@ func main() {
 	app.Domain = "example.com"
 
 	log.Printf("Starting server on port:%d", port)
+	log.Printf("test")
 
 	// start server
 	err := http.ListenAndServe(fmt.Sprintf(":%d", port), nil)
